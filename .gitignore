@@ -10,7 +10,6 @@
 /[Uu]ser[Ss]ettings/
 /[Mm]emory[Cc]aptures/
 /[Aa]ssets/AssetStoreTools*
-/[Pp]ackages/
 
 # Unity meta files
 *.meta
@@ -79,6 +78,7 @@ Thumbs.db
 # ================ #
 **/[Pp]ackages/*
 !**/[Pp]ackages/build/
+!Packages/manifest.json
 *.nupkg
 *.snupkg
 
