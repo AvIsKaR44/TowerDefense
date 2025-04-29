@@ -1,57 +1,60 @@
 ###############################################################################
-# Unity Specific Settings (Явные правила для Unity)
+# Unity Specific Settings
 ###############################################################################
 
 # ================ #
-# Текстовые файлы (LF)  
+# Текстовые файлы (LF)
 # ================ #
-*.cs          text eol=lf
-*.shader      text eol=lf
-*.unity       text eol=lf diff=unity merge=unityyamlmerge
-*.prefab      text eol=lf diff=unity merge=unityyamlmerge
-*.asset       text eol=lf diff=unity merge=unityyamlmerge
-*.controller  text eol=lf
-*.anim        text eol=lf
-*.json        text eol=lf
-*.txt         text eol=lf
-*.cginc       text eol=lf
-*.hlsl        text eol=lf
-*.glslinc     text eol=lf
+*.cs               text eol=lf
+*.shader           text eol=lf
+*.unity            text eol=lf diff=unity merge=unityyamlmerge
+*.prefab           text eol=lf diff=unity merge=unityyamlmerge
+*.asset            text eol=lf diff=unity merge=unityyamlmerge
+*.controller       text eol=lf
+*.anim             text eol=lf
+*.json             text eol=lf
+*.txt              text eol=lf
+*.cginc            text eol=lf
+*.hlsl             text eol=lf
+*.glslinc          text eol=lf
+*.physicMaterial   text eol=lf
+*.physicsMaterial2D text eol=lf
+*.renderTexture    text eol=lf
 
 # ================ #
-# Бинарные файлы  
+# Бинарные файлы
 # ================ #
-*.png         binary
-*.jpg         binary
-*.jpeg        binary
-*.gif         binary
-*.fbx         binary
-*.obj         binary
-*.tga         binary
-*.mat         binary
-*.wav         binary
-*.mp3         binary
-*.ogg         binary
-*.ttf         binary
-*.otf         binary
-*.dll         binary
-*.exe         binary
-*.so          binary
-*.a           binary
-*.bundle      binary
-*.unitypackage binary
-*.zip         binary
-*.rar         binary
+*.png              binary
+*.jpg              binary
+*.jpeg             binary
+*.gif              binary
+*.fbx              binary
+*.obj              binary
+*.tga              binary
+*.mat              binary
+*.wav              binary
+*.mp3              binary
+*.ogg              binary
+*.ttf              binary
+*.otf              binary
+*.dll              binary
+*.exe              binary
+*.so               binary
+*.a                binary
+*.bundle           binary
+*.unitypackage     binary
+*.zip              binary
+*.rar              binary
 
 ###############################################################################
-# Общие настройки (оставшиеся оригинальные правила)
+# Общие настройки
 ###############################################################################
-# Автодетект для остальных текстовых файлов
+# Автодетект для остальных текстовых файлов (должен быть в конце!)
 * text=auto
 
 # ================ #
-# Закомментированные настройки (для справки)
+# Примеры настроек (закомментировано)
 # ================ #
-#*.sln       merge=binary
-#*.csproj    merge=binary
-#*.doc       diff=astextplain
+#*.sln            merge=binary
+#*.csproj         merge=binary
+#*.doc            diff=astextplain
