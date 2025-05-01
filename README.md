@@ -13,4 +13,4 @@
 - Система апгрейдов
 
 ## Скриншоты
-~~![Gameplay](Screenshots/gameplay.png)~~
+![Gameplay](Screenshots/gameplay.png)
